@@ -30,3 +30,19 @@ $carousel-indicator-height: 10px;
     border-radius: 50%;
   }
 }
+
+.navbar {
+  background-color: transparent;
+}
+
+.masthead {
+  background-image: url("../assets/images/masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .overlay {
+    background-color: rgb(41, 124, 107, 0.8);
+    height: 100%;
+  }
+}

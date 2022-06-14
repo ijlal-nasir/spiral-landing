@@ -16,11 +16,111 @@
     <link rel="stylesheet" href="../scss/app.scss" />
   </head>
   <body>
-    <nav class="navbar bg-primary navbar-dark">
+    <!-- <nav class="navbar bg-primary navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
       </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <header class="masthead" style="height: 100vh; min-height: 500px">
+      <div class="overlay">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-7 text-start">
+              <h1 class="fw-bold">Get an intervention</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                nemo obcaecati, minima tenetur ipsum quo nobis cum praesentium
+                sint laudantium?
+              </p>
+            </div>
+
+            <div class="col-5 bg-success p-5 rounded">
+              <div class="row">
+                <div class="col text-center text-white mb-4">
+                  <h2>Contact Us</h2>
+                </div>
+              </div>
+              <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" />
+                    <label for="">First Name</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" />
+                    <label for="">Last Name</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-2 mt-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" />
+                    <label for="">Email address</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" />
+                    <label for="">Company</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-2 mt-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelectGrid">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <label for="floatingSelectGrid">Works with selects</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <section class="bg-light py-5">
       <div class="container">
