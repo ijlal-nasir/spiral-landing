@@ -13,4 +13,5 @@ $(".slick-carousel").slick({
   arrows: true,
   dots: true,
   adaptiveHeight: true,
+  centerMode: true,
 });
